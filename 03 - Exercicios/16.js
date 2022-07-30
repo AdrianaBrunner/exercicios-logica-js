@@ -8,7 +8,7 @@ function contaPalavras(frase) {
     let soma = 0;
     for(let i = 0; i < frase.length; i++) {
         if(frase[i] === " ") {
-            soma = soma + 1;
+            soma += 1;
         }
     }
     return soma + 1   

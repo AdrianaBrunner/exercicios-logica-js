@@ -8,7 +8,7 @@ function retornaR(letra, frase1) {
     let caractere = 0;
     for(let i = 0; i < frase1.length; i++) {
         if(frase1[i] == letra) {
-            caractere = caractere + 1;
+            caractere += 1;
         }
     }
   return ('Quantidade de letras r na frase: ' + caractere)

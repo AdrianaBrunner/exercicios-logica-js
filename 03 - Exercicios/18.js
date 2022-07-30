@@ -9,8 +9,8 @@ let frase1 = ['rato', 'roeu', 'roupa', 'rei', 'roma']
 
 function buscaPalavras(palavra, strings) {
 
-    for(let i = 0; i < strings.length; i++) {
-        if(strings[i] === palavra) {
+    for (let i = 0; i < strings.length; i++) {
+        if (strings[i] === palavra) {
             return true
         }
     }

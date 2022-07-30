@@ -8,7 +8,7 @@ let listaQualquer = [10, -13, 55, 0, 1, 24, 132, -5000];
 
 function retornaMaiorValor(listaQualquer) {
 
-let maior = 0;
+let maior = -Infinity; // Se a lista for só de numero negativos, inicializar com 0 não adianta.
     for(let i = 0; i < listaQualquer.length; i++) {
         if(listaQualquer[i] > maior) {
             maior = listaQualquer[i];
